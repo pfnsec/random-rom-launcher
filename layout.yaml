@@ -1,0 +1,24 @@
+consoles:
+  - name: NES
+    path: relative
+    rompath: "F:/Roms/NES/Roms"
+    cmd: "F:/Roms/NES/punes64.exe \"{}\""
+    icon: "icons/nintendo nes.png"
+
+  - name: SNES
+    path: file
+    rompath: "F:/Roms/SNES/Roms"
+    cmd: "F:/Roms/SNES/snes9x-x64.exe \"{}\""
+    icon: "icons/nintendo super nes.png"
+
+  - name: N64
+    path: relative
+    rompath: "F:/Roms/N64/Roms"
+    icon: "icons/nintendo nintendo64.png"
+    cmd: "F:/Roms/N64/mupen64plus/mupen64plus-gui.exe \"{}\""
+
+  - name: MAME
+    path: relative
+    rompath: "F:/Roms/MAME/roms"
+    icon: "icons/mame_50.png"
+    cmd: "F:/Roms/MAME/mame64.exe \"{}\""
